@@ -1,1 +1,23 @@
-/* your code */
+table {
+            width: 80%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+			border:2px solid darkblue;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: darkblue;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
